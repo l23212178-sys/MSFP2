@@ -57,17 +57,14 @@ Palabras clave: Sistema cardiovascular; Modelo Windkessel; Controlador PID; Pres
 
 ## Lista de archivos incluidos en el repositorio
 
-1. Cuaderno computacional de MATLAB [.mlx].
-2. Modelos de Simulink [.slx] para las tres condiciones cardiovasculares y sus sistemas de control.
-3. Modelo eléctrico equivalente mediante Simscape Electrical.
-4. Código fuente de Python [.py].
-5. Análisis matemático: ecuaciones diferenciales, espacio de estados, funciones de transferencia, estabilidad y error en estado estacionario.
-6. Tabla de parámetros de los modelos hipotenso, normotenso e hipertenso.
-7. Señal de excitación utilizada para las simulaciones.
-8. Ganancias y capturas de la sintonización de los controladores PID.
-9. Figuras y resultados de las simulaciones en lazo abierto y cerrado [.pdf y .png].
-10. Diagrama biológico del sistema cardiovascular.
-11. Archivo de citación del repositorio [CITATION.cff].
+1. Cuaderno computacional de MATLAB y su versión exportada [.mlx y .pdf].
+2. Modelo de Simulink [.slx].
+3. Código desarrollado en Python [.py].
+4. Señal de entrada utilizada en las simulaciones [.xlsx].
+5. Análisis matemático: ecuaciones, función de transferencia, polos, estabilidad y error en estado estacionario [.pdf].
+6. Figuras de las simulaciones de los casos normotenso, hipotenso e hipertenso en MATLAB y Python [.pdf].
+7. Capturas de los parámetros y las respuestas de los controladores PID para los casos hipotenso e hipertenso [.png].
+8. Diagrama biológico del sistema cardiovascular y su relación con el modelo Windkessel [.jpeg].
 
 ## Referencias
 
