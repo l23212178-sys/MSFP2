@@ -25,14 +25,17 @@ En esta práctica se aplica el modelo Windkessel de cuatro elementos para descri
 
 ## Objetivos
 
-1. Cuaderno computacional de MATLAB y su versión exportada [.mlx y .pdf].
-2. Modelo de Simulink [.slx].
-3. Código desarrollado en Python [.py].
-4. Señal de entrada utilizada en las simulaciones [.xlsx].
-5. Análisis matemático: ecuaciones, función de transferencia, polos, estabilidad y error en estado estacionario [.pdf].
-6. Figuras de las simulaciones de los casos normotenso, hipotenso e hipertenso en MATLAB y Python [.pdf].
-7. Capturas de los parámetros y las respuestas de los controladores PID para los casos hipotenso e hipertenso [.png].
-8. Diagrama biológico del sistema cardiovascular y su relación con el modelo Windkessel [.jpeg].
+1. Identificar las variables hemodinámicas y los parámetros del modelo Windkessel de cuatro elementos: impedancia característica (Z), distensibilidad arterial (C), resistencia periférica (R) e inertancia arterial (L).
+2. Formular las ecuaciones diferenciales y obtener el modelo en espacio de estados utilizando el flujo a través de la inertancia y la presión sobre la distensibilidad como variables de estado.
+3. Calcular las funciones de transferencia correspondientes a los modelos hipotenso, normotenso e hipertenso.
+4. Determinar el error en estado estacionario y analizar la estabilidad mediante la ubicación de los polos.
+5. Implementar y comparar los tres modelos mediante ecuaciones de estado, funciones de transferencia y circuitos equivalentes en MATLAB/Simulink y Simscape Electrical.
+6. Simular las respuestas en lazo abierto ante una misma señal de excitación aleatoria durante 15 segundos.
+7. Diseñar y sintonizar dos controladores PID independientes para reducir la diferencia entre las respuestas hipotensa e hipertensa y la referencia normotensa.
+8. Analizar las respuestas en lazo cerrado y comparar el seguimiento de la referencia, el error y el comportamiento transitorio.
+9. Reproducir las simulaciones en Python y verificar la consistencia de los resultados entre plataformas.
+10. Elaborar un diagrama biológico que relacione los elementos del modelo Windkessel con las estructuras cardiovasculares.
+
 
 ## Descripción detallada del sistema
 
