@@ -56,7 +56,7 @@ Para comparar los modelos se utiliza una misma señal de excitación aleatoria e
 
 Las simulaciones y los controladores tienen únicamente fines académicos y no constituyen una recomendación terapéutica.
 
-Palabras clave: Sistema cardiovascular; Modelo Windkessel; Controlador PID; Presión arterial; Modelado matemático.
+Palabras clave: Sistema cardiovascular; Modelo Windkessel; Controlador PID; Presión arterial; Modelado matemático; Función de transferencia.
 
 ## Lista de archivos incluidos en el repositorio
 
